@@ -1,0 +1,33 @@
+{
+  "name": "ticketarte",
+  "version": "1.0.0",
+  "description": "",
+  "main": "api/index.js",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "bignumber.js": "^9.0.0",
+    "core-util-is": "^1.0.3",
+    "express": "^4.21.1",
+    "inherits": "^2.0.4",
+    "isarray": "^1.0.0",
+    "jsonwebtoken": "^9.0.2",
+    "morgan": "^1.10.0",
+    "multer": "^1.4.5-lts.1",
+    "mysql": "^2.18.1",
+    "nodemon": "^3.1.7",
+    "process-nextick-args": "^2.0.1",
+    "readable-stream": "^2.3.7",
+    "safe-buffer": "^5.1.2",
+    "sqlstring": "^2.3.1",
+    "string_decoder": "^1.1.1",
+    "util-deprecate": "^1.0.2"
+  },
+  "scripts": {
+    "dev": "nodemon /api/index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "dotenv": "^16.4.5"
+  }
+}
